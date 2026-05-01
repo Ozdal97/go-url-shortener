@@ -20,7 +20,8 @@ jobs:
           test -f go.mod
           test -f cmd/server/main.go
           test -d internal/config
-          test -d internal/http
+          test -d internal/domain
+          test -d internal/handler
           test -d internal/repository
           test -d internal/service
           echo "layout OK"
